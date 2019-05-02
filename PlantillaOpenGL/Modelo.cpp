@@ -7,7 +7,7 @@ Modelo::Modelo() {
 	modelo = mat4(1.0f);
 }
 
-void Modelo::inicializarVertexArray(GLuint posicionID, GLuint colorID, GLuint modeloID, GLuint vistaID, GLuint proyeccionesID) {
+void Modelo::inicializarVertexArray(GLuint posicionID, GLuint colorID, GLuint modeloID, GLuint vistaID, GLuint proyeccionID) {
 	this->modeloID = modeloID;
 	this->vistaID = vistaID;
 	this->proyeccionID = proyeccionID;
